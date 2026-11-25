@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Account Contacts">
+        <div class="slds-p-around_medium">
+
+            <lightning-combobox
+                label="Select Account"
+                options={accountOptions}
+                value={selectedId}
+                onchange={handleChange}>
+            </lightning-combobox>
+
+            <template if:true={contacts.length}>
+                <br/>
+                <lightning-datatable
+                    key-field="Id"
+                    data={contacts}
+                    columns={cols}>
+                </lightning-datatable>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,52 @@
+<template>
+    <div class="portfolio-container">
+        <div class="profile-section">
+            <img src={profilePhoto} alt="Profile Photo" class="profile-photo" />
+            <h1 class="user-name">{userName}</h1>
+            <h2 class="user-title">{userTitle}</h2>
+            <p class="user-bio">{userBio}</p>
+        </div>
+        
+        <div class="skills-projects-section">
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <template for:each={skills} for:item="skill">
+                        <li key={skill}>{skill}</li>
+                    </template>
+                </ul>
+            </div>
+            <div class="projects">
+                <h3>Projects</h3>
+                <ul>
+                    <template for:each={projects} for:item="project">
+                        <li key={project.name}>
+                            <a href={project.link} target="_blank">{project.name}</a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="links-section">
+            <h3>Connect</h3>
+            <div class="icon-links">
+                <a href={resumeLink} target="_blank" aria-label="View Resume">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a href={trailheadLink} target="_blank" aria-label="Trailhead">
+                    <i class="fab fa-salesforce"></i>
+                </a>
+                <a href={youtubeLink} target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href={linkedInLink} target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href={twitterLink} target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</template>

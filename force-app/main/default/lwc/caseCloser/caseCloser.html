@@ -1,0 +1,11 @@
+<template>
+    <template for:each={cases} for:item="c">
+        <lightning-input key={c.Id} type="radio"
+            name="case" value={c.Id}
+            label={c.Subject}
+            onchange={select}>
+        </lightning-input>
+    </template>
+
+    <lightning-button label="Close Case" onclick={close}></lightning-button>
+</template>

@@ -1,0 +1,19 @@
+<template>
+    <lightning-combobox 
+    label="Select Account"
+    options={accountOptions}
+    onchange={handleAccountChange}>
+</lightning-combobox>
+
+<lightning-combobox 
+    label="Select Object"
+    options={objectOptions}
+    onchange={handleObjectChange}>
+</lightning-combobox>
+
+<lightning-datatable
+    key-field="Id"
+    data={records}
+    columns={columns}>
+</lightning-datatable>
+</template>

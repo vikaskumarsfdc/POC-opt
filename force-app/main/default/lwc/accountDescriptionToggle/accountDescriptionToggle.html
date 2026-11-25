@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Account Details" icon-name="standard:account">
+        <template lwc:if={account.data}>
+            <div class="slds-p-horizontal_medium">
+                <p><strong>Record Id:</strong> {recordId}</p>
+                <p class="slds-m-bottom_small"><strong>Name:</strong> {accountName}</p>
+
+                <lightning-input
+                    type="toggle"
+                    label="Description"
+                    checked={showDescription}
+                    message-toggle-active="Shown"
+                    message-toggle-inactive="Hidden"
+                    onchange={handleToggle}>
+                </lightning-input>
+
+                <template lwc:if={showDescription}>
+                    <p class="slds-m-top_small">{accountDescription}</p>
+                </template>
+            </div>
+        </template>
+        <template lwc:if={account.error}>
+            <p class="slds-p-horizontal_medium slds-text-color_error">Unable to load account details.</p>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,37 @@
+<template>
+
+    <lightning-card title="Account Child Viewer">
+
+        <div class="slds-p-around_medium">
+
+            <lightning-combobox
+                label="Select Account"
+                options={accounts}
+                onchange={handleChange}>
+            </lightning-combobox>
+
+        </div>
+
+        <template if:true={childData}>
+            <template for:each={childData} for:item="obj">
+
+                <div key={obj.objectName} class="slds-box slds-m-around_small">
+
+                    <h3 class="slds-text-heading_medium">
+                        {obj.objectName}
+                    </h3>
+
+                    <template for:each={obj.records} for:item="rec">
+                        <p key={rec.Id}>
+                            {rec.Name}
+                        </p>
+                    </template>
+
+                </div>
+
+            </template>
+        </template>
+
+    </lightning-card>
+
+</template>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "BMI CALCULATOR",
+  "contentBody" : {
+    "activeViewId" : "BMI_CALCULATOR",
+    "configurationTags" : [ ],
+    "pageAccess" : "Public",
+    "routeType" : "custom-bmi-calculator",
+    "urlPrefix" : "bmi-calculator"
+  },
+  "urlName" : "bmi-calculator"
+}

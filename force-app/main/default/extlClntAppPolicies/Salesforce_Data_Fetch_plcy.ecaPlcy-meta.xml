@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>Salesforce_Data_Fetch</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>false</isOauthPluginEnabled>
+    <isSamlPluginEnabled>true</isSamlPluginEnabled>
+    <label>Salesforce_Data_Fetch_plcy</label>
+    <startPage>Custom</startPage>
+    <startUrl>https://selfemployed51-dev-ed.develop.my.salesforce.com/</startUrl>
+</ExtlClntAppConfigurablePolicies>

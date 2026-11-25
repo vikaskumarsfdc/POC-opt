@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title="Account Details">
+    <lightning-combobox 
+    label="Account Data" 
+    options={accOptions} 
+    onchange={acconchange}
+    ></lightning-combobox>
+
+    <template if:true={contacts}>
+    <lightning-datatable
+    key-field="Id" 
+    data={contacts} 
+    columns={_contacts}
+    
+    >
+
+    </lightning-datatable></template>
+
+    
+  </lightning-card>  
+</template>

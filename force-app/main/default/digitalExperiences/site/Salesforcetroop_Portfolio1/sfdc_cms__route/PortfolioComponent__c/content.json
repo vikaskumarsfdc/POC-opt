@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "PortfolioComponent",
+  "contentBody" : {
+    "activeViewId" : "PortfolioComponent",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-portfoliocomponent",
+    "urlPrefix" : "portfoliocomponent"
+  },
+  "urlName" : "portfoliocomponent"
+}

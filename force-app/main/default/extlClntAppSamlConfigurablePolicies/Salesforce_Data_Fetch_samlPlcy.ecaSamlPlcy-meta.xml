@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppSamlConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <acsUrl>https://selfemployed51-dev-ed.develop.my.salesforce.com</acsUrl>
+    <certificate>MIIErDCCA5SgAwIBAgIOAZnNkE+1AAAAADFftAQwDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEwT2N0MjAyNV8xMDAwMTAxGDAWBgNV
+BAsMDzAwRGRMMDAwMDBJeUtwVjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjUxMDEwMTAwMDEwWhcNMjYxMDEwMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMTBPY3QyMDI1XzEwMDAxMDEYMBYGA1UECwwPMDBEZEwwMDAw
+MEl5S3BWMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALRXYC852obMYwc49RkjC+A/3z+QoU9u0eaJf7MI
+ppvt+dcQRDWmJPBDnpQh+34F6WIlJXWvUB1ulCyGMU1ZL26fwLhGw0iI2gDN1cxW
+YUWl8uYeJn2/DNeCFDpfmi9DVG0w5WCchO/P/cJktjSHtKIjob/dke70SHYBgNFc
+UNm7L4PzKcwX9Lp4Sb9QK4/CN4H6xXuq4ex1jZasCITBNXUauJhLmkimKsLt8dhu
+NohcqkHMqbRoCtM2oPGozgTRVZVrBk9OT/z/5TEKfXh4jbSl6JbmKFTRWyUENUrB
+rMOaAFOkPoSdqbl+YjaUSO9vg2yLpV2HiIPgxSHiaM+ZZp8CAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFOaOrthGY3NheRoj8Ko4FLp5Xvn+MA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AU5o6u2EZjc2F5GiPwqjgUunle+f6hgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEwT2N0MjAyNV8xMDAwMTAxGDAWBgNVBAsM
+DzAwRGRMMDAwMDBJeUtwVjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGZ
+zZBPtQAAAAAxX7QEMA0GCSqGSIb3DQEBCwUAA4IBAQBp7Ug86QojgWHRkDwvVqVx
+F9ia0TxkN9qoksJuZzwyIEu5X4oJt9mi93xiZR7ky7lVGGJB3xcrTD+2kxzB2Cre
+kwXf2yzZMylD62pLpOgfmOkwFiaeoufbQiscM/pmYw5PAA3iZBRCf3suJzkLEfJu
+tCY3pL9E1wHrY9FCzEbslIKL5vRvfumCM61IOMGLo8jE3RWEH3lPo/eEMNUtIIko
+kaoLxDDCLtyUob13+d7CikEd/Q+Pm8+rXEGNUroMxB0nAvIDDwv42PGHBGcpq2hq
+3YdP3J+/93ELHowQpsGT1YVUd5P8to8QbJYt1YyHMlZk55k3I0bmzZRSqJDKoZGI</certificate>
+    <commaSeparatedProfile>System Administrator</commaSeparatedProfile>
+    <encryptionType>AES_128</encryptionType>
+    <entityUrl>https://selfemployed51-dev-ed.develop.my.salesforce.com/</entityUrl>
+    <externalClientApplication>Salesforce_Data_Fetch</externalClientApplication>
+    <issuer>https://troop27-portfolio-dev-ed.develop.my.salesforce.com/</issuer>
+    <label>Salesforce_Data_Fetch_samlPlcy</label>
+    <nameIdFormat>Unspecified</nameIdFormat>
+    <signingAlgorithmType>SHA1</signingAlgorithmType>
+    <singleLogoutBindingType>RedirectBinding</singleLogoutBindingType>
+    <singleLogoutUrl>https://selfemployed51-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout</singleLogoutUrl>
+    <subjectType>FederationId</subjectType>
+</ExtlClntAppSamlConfigurablePolicies>

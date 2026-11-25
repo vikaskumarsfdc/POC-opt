@@ -1,0 +1,34 @@
+<template>
+    <template if:true={hasPortfolioData}>
+        <div class="container">
+            <div class="profile-image">
+                <img src={portfolioData.profileImageUrl} alt="Profile Image">
+            </div>
+            <div class="profile-info">
+                <h1>{portfolioData.name}</h1>
+                <p>{portfolioData.title}</p>
+                <p>{portfolioData.description}</p>
+                <div class="social-icons">
+                    <a href="#" onclick={handleViewResume} title="View Resume">
+                        <lightning-icon icon-name="standard:resume" alternative-text="View Resume"></lightning-icon>
+                    </a>
+                    <a href="#" onclick={handleTrailheadClick} title="Trailhead">
+                        <lightning-icon icon-name="standard:opportunity" alternative-text="Trailhead"></lightning-icon> 
+                    </a>
+                    <a href="#" onclick={handleYoutubeClick} title="YouTube">
+                        <lightning-icon icon-name="standard:youtube" alternative-text="YouTube"></lightning-icon>
+                    </a>
+                    <a href="#" onclick={handleLinkedInClick} title="LinkedIn">
+                        <lightning-icon icon-name="standard:linkedin" alternative-text="LinkedIn"></lightning-icon>
+                    </a>
+                    <a href="#" onclick={handleTwitterClick} title="Twitter">
+                        <lightning-icon icon-name="standard:twitter" alternative-text="Twitter"></lightning-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template if:false={hasPortfolioData}>
+        <p>No portfolio data available.</p>
+    </template>
+</template>

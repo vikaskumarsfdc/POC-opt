@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="portfolioDisplay">
+    <apiVersion>58.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+    <target>lightningCommunity__Page</target>
+    <target>lightningCommunity__Default</target>
+    <!--
+            <property name="profilePhoto" type="String" label="Profile Photo URL" />
+            <property name="userName" type="String" label="User Name" />
+            <property name="userTitle" type="String" label="User Title" />
+            <property name="userBio" type="String" label="User Bio" />
+            <property name="skills" type="List" label="Skills (Comma-separated)" />
+            <property name="projects" type="List" label="Projects (Comma-separated with Links)" />
+            <property name="resumeLink" type="String" label="Resume Link" />
+            <property name="trailheadLink" type="String" label="Trailhead Link" />
+            <property name="youtubeLink" type="String" label="YouTube Link" />
+            <property name="linkedInLink" type="String" label="LinkedIn Link" />
+            <property name="twitterLink" type="String" label="Twitter Link" />
+       --> 
+    </targets>
+</LightningComponentBundle>

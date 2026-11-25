@@ -1,0 +1,46 @@
+<template>
+    <!-- Search Input -->
+    <lightning-card title="Account Search">
+        <div class="slds-p-around_medium">
+            
+            <lightning-input
+                label="Search Account"
+                value={searchTerm}
+                onchange={handleSearch}>
+            </lightning-input>
+
+            <!-- Dropdown -->
+            <template if:true={accounts}>
+                <div class="dropdown-box">
+                    <template for:each={accounts} for:item="acc">
+                        <div key={acc.Id} 
+                             class="dropdown-item"
+                             data-id={acc.Id}
+                             data-name={acc.Name}
+                             onclick={handleAccountSelect}>
+                            {acc.Name}
+                        </div>
+                    </template>
+                </div>
+            </template>
+
+            <!-- Selected Account -->
+            <template if:true={selectedAccount}>
+                <p class="slds-m-top_small">
+                    <b>Selected:</b> {selectedAccount}
+                </p>
+            </template>
+
+            <!-- Contacts Datatable -->
+            <template if:true={contacts}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={contacts}
+                    columns={columns}
+                    class="slds-m-top_medium">
+                </lightning-datatable>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

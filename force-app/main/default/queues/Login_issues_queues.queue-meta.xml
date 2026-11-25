@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Login issues queues</name>
+    <queueMembers>
+        <users>
+            <user>auralwc2021build7realtime@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Login_issue_routing_config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

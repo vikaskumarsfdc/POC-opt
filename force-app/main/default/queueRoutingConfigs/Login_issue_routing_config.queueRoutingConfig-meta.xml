@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QueueRoutingConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <capacityType>INHERITED</capacityType>
+    <capacityWeight>1.0</capacityWeight>
+    <isAttributeBased>false</isAttributeBased>
+    <label>Login issue routing config</label>
+    <routingModel>LEAST_ACTIVE</routingModel>
+    <routingPriority>1</routingPriority>
+    <userOverflowAssignee>auralwc2021build7realtime@gmail.com</userOverflowAssignee>
+</QueueRoutingConfig>

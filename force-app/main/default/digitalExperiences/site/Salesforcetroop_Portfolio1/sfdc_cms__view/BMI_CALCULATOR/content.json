@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "BMI CALCULATOR",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1aeaed39-818a-4187-8064-e47e07630a2d\",\"columns\":[{\"UUID\":\"a686f75e-37c2-4a9a-99a3-d137e95bc103\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:bmiCalculator",
+              "id" : "84f5fe28-408c-48e1-87e3-268f9c40c9fb",
+              "type" : "component"
+            } ],
+            "id" : "a686f75e-37c2-4a9a-99a3-d137e95bc103",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1aeaed39-818a-4187-8064-e47e07630a2d",
+          "type" : "component"
+        } ],
+        "id" : "41c05ad5-0ac0-4996-bbf8-b98707e27579",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "BMI CALCULATOR",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6f855d4c-7f26-4812-aa43-59803262e8ae",
+          "type" : "component"
+        } ],
+        "id" : "b70ad34f-7a19-4348-938a-aea4e65360c4",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "17546d95-46e2-40a6-adfc-fd2357273a02",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-bmi-calculator"
+  },
+  "urlName" : "bmi-calculator"
+}

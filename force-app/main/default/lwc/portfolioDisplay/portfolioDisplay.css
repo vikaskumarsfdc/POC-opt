@@ -1,0 +1,75 @@
+.portfolio-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #ffffff, #f0f4f8);
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.user-title {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.user-bio {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.skills, .projects {
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon-links a {
+    font-size: 1.5rem;
+    color: #555;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-links a:hover {
+    color: #0070d2;
+    transform: scale(1.2);
+}
